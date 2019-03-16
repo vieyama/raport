@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+
+
+RewriteRule ^dashboard-import$ form.php [L]
+
+
+Options All -Indexes
+</IfModule>
